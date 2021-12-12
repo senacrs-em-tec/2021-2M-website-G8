@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+ 
+#menu ul{
+    margin: 0;
+    background-color: black;
+    list-style: none;
+ 
+}
+ 
+#menu ul li{
+    display: inline;
+}
+ 
+#menu ul li a{
+    margin-left: 60px;
+    padding: 10px 60px;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+}
+ 
+#menu ul li a:hover{
+    color:gray;
+}
+#menu ul li a:visited{
+    color: rgb(126, 119, 119);
+}
+
+.main-banner{
+height: 500px;
+width: 100%;
+background-color: black;
+margin-top: 15px;
+}
+#punchline{
+font-family: 'Times New Roman', Times, serif;
+color: white;
+position: relative;
+bottom: 450px;
+left: 400px;
+}
+#text{
+color: white;
+position: relative;
+bottom: 400px;
+left: 390px;
+}
+.household-product{
+margin-top: 20px;
+margin-left: 50px;
+float: left;
+}
+.household-product img{
+background: url(UsoDomestico.jpg);
+}
+.household-product a{
+text-decoration: none;
+}
+#household-product-link{
+text-decoration: none;
+color: whitesmoke;
+font-size: 40px;
+z-index: 2;
+position: relative;
+bottom: 360px;
+left: 195px;
+}
+#mini-link{
+text-decoration: none;
+color: whitesmoke;
+font-size: 20px;
+z-index: 2;
+position: relative;
+bottom: 345px;
+left: 283px;
+}
+.business-product{
+float: left;
+margin-top: 20px;
+margin-left: 75px;
+}
+.business-product img{
+background: url(UsoDomestico.jpg);
+}
+.business-product a{
+text-decoration: none;
+}
+#business-product-link{
+text-decoration: none;
+color: whitesmoke;
+font-size: 40px;
+z-index: 2;
+position: relative;
+bottom: 360px;
+left: 195px;
+}
+#mini-link2{
+text-decoration: none;
+color: whitesmoke;
+font-size: 20px;
+z-index: 2;
+position: relative;
+bottom: 345px;
+left: 283px;
+}
